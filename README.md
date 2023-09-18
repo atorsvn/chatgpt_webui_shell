@@ -1,5 +1,5 @@
 # chatgpt_webui_shell
-![Shell Image](https://raw.githubusercontent.com/atorsvn/chatgpt_arduino/main/ezgif.com-optimize%20(2).gif)
+![Shell Image](https://raw.githubusercontent.com/atorsvn/chatgpt_webui_shell/main/ezgif.com-optimize%20(3).gif)
 ## install
 ```
 git clone https://github.com/atorsvn/chatgpt_webui_shell.git
