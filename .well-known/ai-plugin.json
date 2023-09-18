@@ -1,9 +1,9 @@
 {
   "schema_version": "v1",
-  "name_for_human": "Arduino Controller (no auth)",
-  "name_for_model": "arduino_controller",
-  "description_for_human": "Control your Arduino Uno. You can set pin modes, write to digital pins, and read from digital pins.",
-  "description_for_model": "Plugin for controlling an Arduino Uno. Set pin modes, write to digital pins, and read from digital pins.",
+  "name_for_human": "Terminal Controller (no auth)",
+  "name_for_model": "terminal_controller",
+  "description_for_human": "Control your Linux terminal.",
+  "description_for_model": "Plugin for controlling a Linux terminal. Execute shell commands.",
   "auth": {
     "type": "none"
   },
