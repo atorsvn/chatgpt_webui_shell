@@ -1,3 +1,2 @@
 quart
 quart-cors
-pyfirmata
