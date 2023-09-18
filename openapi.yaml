@@ -1,0 +1,50 @@
+openapi: 3.0.1
+info:
+  title: Linux Terminal Controller Plugin
+  description: A plugin that allows the user to control a Linux terminal using ChatGPT.
+  version: 'v1'
+servers:
+  - url: http://localhost:5003
+paths:
+  /terminal/execute:
+    post:
+      operationId: executeCommand
+      summary: Execute a shell command
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                command:
+                  type: string
+                  description: The shell command to be executed.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/executeCommandResponse'
+        "400":
+          description: Command Execution Failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/errorResponse'
+
+components:
+  schemas:
+    executeCommandResponse:
+      type: object
+      properties:
+        output:
+          type: string
+          description: The output of the executed command.
+    errorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+          description: The error output of the failed command.
