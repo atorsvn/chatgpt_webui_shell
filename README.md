@@ -3,7 +3,7 @@
 ## install
 ```
 git clone https://github.com/atorsvn/chatgpt_webui_shell.git
-cd chatgpt_web_shell
+cd chatgpt_webui_shell
 pip install -r requirements
 ```
 ## Run
