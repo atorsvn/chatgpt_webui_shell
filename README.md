@@ -44,3 +44,9 @@ For those who love excitement but still want safety first! 🚢
    ```
 
 The Docker version offers a controlled and secure environment, making it the go-to choice for those who appreciate a thrilling adventure without compromising safety! 🐳🔒😅
+
+## Come Hang Out on Discord and Chat with Our AI Chatbots!
+
+Join our Discord community to interact with our AI chatbots and be a part of the conversation! 🤖💬
+
+[Click here to join the chat](https://discord.gg/53Bu5RpY) 🎉
