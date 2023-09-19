@@ -12,3 +12,9 @@ python3 app.py
 ```
 
 Just install a dev plugin in the chatgpt webui like you would any other
+
+## Docker run
+```
+sudo docker build -t chatgpt_webui_shell:latest chatgpt_webui_shell/
+sudo docker run -d -p 5001:5001 chatgpt_webui_shell:latest
+```
