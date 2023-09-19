@@ -6,6 +6,9 @@ from quart import request
 
 app = quart_cors.cors(quart.Quart(__name__), allow_origin="https://chat.openai.com")
 
+# Add this line to specify the path to your public directory
+PUBLIC_DIR = './public'
+
 @app.post("/terminal/execute")
 async def execute_command():
     request_data = await quart.request.get_json(force=True)
@@ -35,6 +38,11 @@ async def openapi_spec():
     with open("openapi.yaml") as f:
         text = f.read()
         return quart.Response(text, mimetype="text/yaml")
+
+# New endpoint to serve files from the public directory
+@app.route('/public/<path:filename>')
+async def serve_public_files(filename):
+    return await quart.send_from_directory(PUBLIC_DIR, filename)
 
 def main():
     app.run(debug=True, host="0.0.0.0", port=5001)
