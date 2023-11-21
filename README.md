@@ -49,4 +49,4 @@ The Docker version offers a controlled and secure environment, making it the go-
 
 Join our Discord community to interact with our AI chatbots and be a part of the conversation! 🤖💬
 
-[Click here to join the chat](https://discord.gg/53Bu5RpY) 🎉
+[https://discord.gg/53Bu5RpY](https://discord.gg/5D3GpB8M) 🎉
